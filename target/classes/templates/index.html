@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Inicio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Inicio con docker</h1>
+        <div th:if="${personas != null and !personas.empty}">
+            <table border="1">
+                <tr>
+                    <th>Nombre</th> 
+                    <th>Apellido</th> 
+                    <th>Email</th> 
+                    <th>Telefono</th>                    
+                </tr>
+                <tr th:each="persona : ${personas}">
+                    <td><span th:text="${persona.nombre}">Mostrar Nombre</span></td>
+                    <td><span th:text="${persona.apellido}">Mostrar Apellido</span></td>
+                    <td><span th:text="${persona.email}">Mostrar Email</span></td>
+                    <td><span th:text="${persona.telefono}">Mostrar Telefono</span></td>
+                </tr>  
+            </table>
+        </div>
+        <div th:if="${personas == null or personas.empty}">
+            La lista esta vacia
+        </div>
+    </body>
+</html>
