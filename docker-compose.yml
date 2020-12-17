@@ -2,7 +2,7 @@ version: '3'
 
 services:
 
-  myapp-mysql:
+  mysql1:
     image: mysql:8.0
     environment:
       - MYSQL_ROOT_PASSWORD=mysql
@@ -17,16 +17,16 @@ services:
       - employee-mysql
       
   myapp-main:
-    image: hansleolml/spring_docker:2.0
+    image: javadbapp
     networks:
       - employee-mysql
     restart: on-failure
     depends_on:
-      - myapp-mysql
+      - mysql1
     ports:
       - 8080:8080
     environment:
-      - DATABASE_HOST=myapp-mysql
+      - DATABASE_HOST=mysql1
       - DATABASE_USER=root
       - DATABASE_PASSWORD=mysql
       - DATABASE_NAME=test
