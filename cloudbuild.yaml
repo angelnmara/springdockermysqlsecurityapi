@@ -1,0 +1,6 @@
+steps:
+  # running docker-compose
+  - name: gcr.io/cloud-builders/docker
+    args: [ "build","--network=network employee-mysql", "." ]
+  - name: 'docker/compose:1.26.2'
+    args: ['up', '-d']
