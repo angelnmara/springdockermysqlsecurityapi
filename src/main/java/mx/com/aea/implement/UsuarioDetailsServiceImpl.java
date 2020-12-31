@@ -1,5 +1,7 @@
-package mx.com.aea.domain;
+package mx.com.aea.implement;
 
+import mx.com.aea.domain.Usuario;
+import mx.com.aea.repository.UsuarioRepository;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
