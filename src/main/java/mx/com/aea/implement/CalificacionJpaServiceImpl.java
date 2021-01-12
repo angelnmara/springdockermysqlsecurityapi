@@ -8,8 +8,6 @@ import mx.com.aea.repository.CalificacionJpaRepository;
 import mx.com.aea.repository.CalificacionRepository;
 import mx.com.aea.utils.Utils;
 import org.springframework.stereotype.Service;
-
-import java.time.Year;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;

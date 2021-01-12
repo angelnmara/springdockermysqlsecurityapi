@@ -23,53 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bb7029c-8024-4af7-b9a7-85d197b5f432" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_2_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/implement/CalificacionJpaServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/model/Annio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/model/FiltrosCalificacion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/model/Mes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/repository/CalificacionJpaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/utils/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_21.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_2_2_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudSpringAea_docker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CrudSpringAea_docker.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/controller/CalificacionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/controller/CalificacionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/controller/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/controller/UsuarioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/dao/CalificacionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/dao/CalificacionDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/dao/PersonaDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/dao/PersonaDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/domain/Calificacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/model/Calificacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/domain/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/model/Persona.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/domain/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/model/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/implement/UsuarioDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/implement/UsuarioDetailsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/repository/CalificacionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/repository/CalificacionRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/repository/UsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/repository/UsuarioRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/security/JWTAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/security/JWTAuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/web/ControladorInicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/web/ControladorInicio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/implement/CalificacionJpaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/implement/CalificacionJpaServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/HolaMongolApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/com/aea/HolaMongolApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/controller/CalificacionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/com/aea/controller/CalificacionController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/controller/UsuarioController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/com/aea/controller/UsuarioController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/dao/CalificacionDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/com/aea/dao/CalificacionDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/dao/PersonaDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/com/aea/dao/PersonaDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/domain/Calificacion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/domain/Persona.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/domain/Usuario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/implement/UsuarioDetailsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/com/aea/implement/UsuarioDetailsServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/repository/CalificacionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/com/aea/repository/CalificacionRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/repository/UsuarioRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/com/aea/repository/UsuarioRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/security/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/com/aea/security/Constants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/security/JWTAuthenticationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/com/aea/security/JWTAuthenticationFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/security/JWTAuthorizationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/com/aea/security/JWTAuthorizationFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/security/WebSecurity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/com/aea/security/WebSecurity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/web/ControladorInicio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/com/aea/web/ControladorInicio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/mx/com/aea/HolaMongolApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mx/com/aea/HolaMongolApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,27 +146,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/mx/com/aea/implement/CalificacionJpaServiceImpl.java</url>
-          <line>34</line>
+          <line>32</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/mx/com/aea/implement/CalificacionJpaServiceImpl.java</url>
-          <line>36</line>
+          <line>34</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/mx/com/aea/implement/CalificacionJpaServiceImpl.java</url>
-          <line>27</line>
+          <line>25</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/mx/com/aea/implement/CalificacionJpaServiceImpl.java</url>
-          <line>38</line>
+          <line>36</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/mx/com/aea/implement/CalificacionJpaServiceImpl.java</url>
-          <line>33</line>
+          <line>31</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
