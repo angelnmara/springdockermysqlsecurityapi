@@ -1,6 +1,6 @@
 package mx.com.aea.controller;
 
-import mx.com.aea.domain.Usuario;
+import mx.com.aea.model.Usuario;
 import mx.com.aea.repository.UsuarioRepository;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.*;

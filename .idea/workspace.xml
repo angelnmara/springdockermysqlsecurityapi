@@ -23,12 +23,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bb7029c-8024-4af7-b9a7-85d197b5f432" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_2_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/implement/CalificacionJpaServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/model/Annio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/model/FiltrosCalificacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/model/Mes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/repository/CalificacionJpaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_21.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_2_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrudSpringAea_docker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CrudSpringAea_docker.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/controller/CalificacionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/controller/CalificacionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/controller/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/controller/UsuarioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/dao/CalificacionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/dao/CalificacionDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/dao/PersonaDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/dao/PersonaDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/domain/Calificacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/model/Calificacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/domain/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/model/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/domain/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/model/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/implement/UsuarioDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/implement/UsuarioDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/repository/CalificacionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/repository/CalificacionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/repository/UsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/repository/UsuarioRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/security/JWTAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/security/JWTAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/web/ControladorInicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/web/ControladorInicio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/HolaMongolApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/com/aea/HolaMongolApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/controller/CalificacionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/com/aea/controller/CalificacionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/controller/UsuarioController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/com/aea/controller/UsuarioController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/dao/CalificacionDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/com/aea/dao/CalificacionDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/dao/PersonaDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/com/aea/dao/PersonaDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/domain/Calificacion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/domain/Persona.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/domain/Usuario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/implement/UsuarioDetailsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/com/aea/implement/UsuarioDetailsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/repository/CalificacionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/com/aea/repository/CalificacionRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/repository/UsuarioRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/com/aea/repository/UsuarioRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/security/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/com/aea/security/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/security/JWTAuthenticationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/com/aea/security/JWTAuthenticationFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/security/JWTAuthorizationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/com/aea/security/JWTAuthorizationFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/security/WebSecurity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/com/aea/security/WebSecurity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/web/ControladorInicio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/com/aea/web/ControladorInicio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/mx/com/aea/HolaMongolApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mx/com/aea/HolaMongolApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -41,12 +90,8 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
-      </MavenGeneralSettings>
-    </option>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1lSLizdeBsOrDkswy2AmDkTppMI" />
   <component name="ProjectViewState">
@@ -54,9 +99,23 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="LombokPluginEnabledInProject" value="true" />
+    <property name="LombokPluginIS_ANNOTATION_PROCESSING_CHECK_Enabled" value="true" />
+    <property name="LombokPluginIS_BUILDER_Enabled" value="true" />
+    <property name="LombokPluginIS_CONSTRUCTOR_Enabled" value="true" />
+    <property name="LombokPluginIS_DELEGATE_Enabled" value="true" />
+    <property name="LombokPluginIS_LOG_Enabled" value="true" />
+    <property name="LombokPluginIS_LOMBOK_VERSION_CHECK_Enabled" value="true" />
+    <property name="LombokPluginIS_MISSING_LOMBOK_CHECK_Enabled" value="true" />
+    <property name="LombokPluginIS_VAL_Enabled" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dockerapi-main/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.44604316" />
+    <property name="settings.editor.selected.configurable" value="Lombok plugin" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -106,81 +165,53 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="401" y="199" width="626" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608097027805">
-      <screen x="72" y="27" width="1294" height="741" />
-    </state>
-    <state x="401" y="199" width="626" height="403" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1294.741@72.27.1294.741" timestamp="1608097027805" />
-    <state x="527" y="116" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1607929824863">
-      <screen x="72" y="27" width="1294" height="741" />
-    </state>
-    <state x="527" y="116" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/72.27.1294.741@72.27.1294.741" timestamp="1607929824863" />
-    <state x="477" y="142" key="#xdebugger.evaluate" timestamp="1609391941038">
-      <screen x="72" y="27" width="1294" height="741" />
-    </state>
-    <state x="477" y="142" key="#xdebugger.evaluate/72.27.1294.741@72.27.1294.741" timestamp="1609391941038" />
-    <state width="477" height="506" key="DebuggerActiveHint" timestamp="1609391927222">
-      <screen x="72" y="27" width="1294" height="741" />
-    </state>
-    <state width="477" height="506" key="DebuggerActiveHint/72.27.1294.741@72.27.1294.741" timestamp="1609391927222" />
-    <state x="502" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1609173833179">
-      <screen x="72" y="27" width="1294" height="741" />
-    </state>
-    <state x="502" y="155" width="424" height="491" key="FileChooserDialogImpl/72.27.1294.741@72.27.1294.741" timestamp="1609173833179" />
-    <state width="1248" height="378" key="GridCell.Tab.0.bottom" timestamp="1609392795394">
-      <screen x="72" y="27" width="1294" height="741" />
-    </state>
-    <state width="1248" height="378" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1609392795394" />
-    <state width="1248" height="378" key="GridCell.Tab.0.center" timestamp="1609392795394">
-      <screen x="72" y="27" width="1294" height="741" />
-    </state>
-    <state width="1248" height="378" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1609392795394" />
-    <state width="1248" height="378" key="GridCell.Tab.0.left" timestamp="1609392795393">
-      <screen x="72" y="27" width="1294" height="741" />
-    </state>
-    <state width="1248" height="378" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1609392795393" />
-    <state width="1248" height="378" key="GridCell.Tab.0.right" timestamp="1609392795394">
-      <screen x="72" y="27" width="1294" height="741" />
-    </state>
-    <state width="1248" height="378" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1609392795394" />
-    <state width="1248" height="378" key="GridCell.Tab.1.bottom" timestamp="1609392795395">
-      <screen x="72" y="27" width="1294" height="741" />
-    </state>
-    <state width="1248" height="378" key="GridCell.Tab.1.bottom/72.27.1294.741@72.27.1294.741" timestamp="1609392795395" />
-    <state width="1248" height="378" key="GridCell.Tab.1.center" timestamp="1609392795395">
-      <screen x="72" y="27" width="1294" height="741" />
-    </state>
-    <state width="1248" height="378" key="GridCell.Tab.1.center/72.27.1294.741@72.27.1294.741" timestamp="1609392795395" />
-    <state width="1248" height="378" key="GridCell.Tab.1.left" timestamp="1609392795395">
-      <screen x="72" y="27" width="1294" height="741" />
-    </state>
-    <state width="1248" height="378" key="GridCell.Tab.1.left/72.27.1294.741@72.27.1294.741" timestamp="1609392795395" />
-    <state width="1248" height="378" key="GridCell.Tab.1.right" timestamp="1609392795395">
-      <screen x="72" y="27" width="1294" height="741" />
-    </state>
-    <state width="1248" height="378" key="GridCell.Tab.1.right/72.27.1294.741@72.27.1294.741" timestamp="1609392795395" />
-    <state x="252" y="55" width="924" height="691" key="Maven.ArtifactSearchDialog" timestamp="1607929528090">
-      <screen x="72" y="27" width="1294" height="741" />
-    </state>
-    <state x="252" y="55" width="924" height="691" key="Maven.ArtifactSearchDialog/72.27.1294.741@72.27.1294.741" timestamp="1607929528090" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/mx/com/aea/controller/CalificacionController.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/mx/com/aea/controller/CalificacionController.java</url>
-          <line>25</line>
+          <line>33</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/mx/com/aea/controller/UsuarioController.java</url>
           <line>28</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mx/com/aea/controller/CalificacionController.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mx/com/aea/controller/CalificacionController.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mx/com/aea/implement/CalificacionJpaServiceImpl.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mx/com/aea/implement/CalificacionJpaServiceImpl.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mx/com/aea/implement/CalificacionJpaServiceImpl.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mx/com/aea/implement/CalificacionJpaServiceImpl.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mx/com/aea/implement/CalificacionJpaServiceImpl.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

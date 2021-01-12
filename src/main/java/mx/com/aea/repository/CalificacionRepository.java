@@ -1,7 +1,12 @@
 package mx.com.aea.repository;
 
-import mx.com.aea.domain.Calificacion;
-import org.springframework.data.jpa.repository.JpaRepository;
+import mx.com.aea.model.Calificacion;
+import mx.com.aea.model.FiltrosCalificacion;
 
-public interface CalificacionRepository extends JpaRepository<Calificacion, Long> {
+import java.util.Date;
+import java.util.List;
+
+public interface CalificacionRepository {
+    List<Calificacion> findCalificacionByName(String name, FiltrosCalificacion filtrosCalificacion) throws Exception;
+    List<Calificacion> findCalificacionByDate(Date fecha);
 }
