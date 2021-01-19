@@ -7,6 +7,6 @@ import java.util.Date;
 import java.util.List;
 
 public interface CalificacionRepository {
-    List<Calificacion> findCalificacionByName(String name, FiltrosCalificacion filtrosCalificacion) throws Exception;
+    List<Calificacion> findCalificacionByName(String name, Integer annio, Integer mes) throws Exception;
     List<Calificacion> findCalificacionByDate(Date fecha);
 }

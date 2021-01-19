@@ -22,23 +22,21 @@ public class CalificacionJpaServiceImpl implements CalificacionRepository {
     }
 
     @Override
-    public List<Calificacion> findCalificacionByName(String name, FiltrosCalificacion filtrosCalificacion) throws Exception {
+    public List<Calificacion> findCalificacionByName(String name, Integer annio, Integer mes) throws Exception {
         List<Calificacion> calificacions = new ArrayList<>();
-        if(filtrosCalificacion!=null){
-            calificacions = findCalificacionesByNameAndFilter(name, filtrosCalificacion);
+        if(annio!=null || mes != null){
+            calificacions = findCalificacionesByNameAndFilter(name, annio, mes);
         }else{
             calificacions = this.repository.findAll().stream().filter(c->c.getIdUsuario().contains(name)).collect(Collectors.toList());
         }
         return calificacions;
     }
 
-    private List<Calificacion> findCalificacionesByNameAndFilter(String name, FiltrosCalificacion filtrosCalificacion) throws Exception {
+    private List<Calificacion> findCalificacionesByNameAndFilter(String name, Integer annio, Integer mes) throws Exception {
         Utils utils = new Utils();
-        Annio annio = new Annio(filtrosCalificacion.getAnnio());
-        Mes mes = new Mes(filtrosCalificacion.getMes());
         return this.repository.findAll().stream().filter(c -> c.getIdUsuario().contains(name) &&
-                utils.convertToLocalDateViaInstant(c.getFechaCreacion()).getYear() == annio.getValue() &&
-                utils.convertToLocalDateViaInstant(c.getFechaCreacion()).getMonthValue() == mes.getValue()
+                utils.convertToLocalDateViaInstant(c.getFechaCreacion()).getYear() == annio &&
+                utils.convertToLocalDateViaInstant(c.getFechaCreacion()).getMonthValue() == mes
         ).collect(Collectors.toList());
     }
 

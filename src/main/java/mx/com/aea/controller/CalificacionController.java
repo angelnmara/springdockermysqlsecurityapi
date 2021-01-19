@@ -1,7 +1,6 @@
 package mx.com.aea.controller;
 
 import mx.com.aea.model.Calificacion;
-import mx.com.aea.model.FiltrosCalificacion;
 import mx.com.aea.repository.CalificacionJpaRepository;
 import mx.com.aea.repository.CalificacionRepository;
 import org.springframework.web.bind.annotation.*;
@@ -39,9 +38,12 @@ public class CalificacionController {
         return repository.findById(id);
     }
 
-    @GetMapping("/calificacion-usuario/{idUsuario}")
-    public List<Calificacion> getCalificacionByUsuario(@PathVariable String idUsuario, @RequestBody(required = false) FiltrosCalificacion filtrosCalificacion) throws Exception {
-        return repositoryCalificacion.findCalificacionByName(idUsuario, filtrosCalificacion);
+    //@GetMapping("/calificacion-usuario/{idUsuario}/{annio}/{mes}")
+    @RequestMapping(value={ "/calificacion-usuario/{idUsuario}/{annio}/{mes}", "/calificacion-usuario/{idUsuario}" }, method=RequestMethod.GET)
+    public List<Calificacion> getCalificacionByUsuario(@PathVariable String idUsuario
+            , @PathVariable(required = false) Integer annio
+            , @PathVariable(required = false) Integer mes) throws Exception {
+        return repositoryCalificacion.findCalificacionByName(idUsuario, annio, mes);
     }
 
     @GetMapping("/calificacion-fecha/{fechaStr}")
