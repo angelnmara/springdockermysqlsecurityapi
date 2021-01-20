@@ -23,12 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bb7029c-8024-4af7-b9a7-85d197b5f432" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_2_14.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudSpringAea_docker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CrudSpringAea_docker.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/controller/CalificacionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/controller/CalificacionController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/implement/CalificacionJpaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/implement/CalificacionJpaServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/repository/CalificacionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/repository/CalificacionRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

@@ -38,11 +38,11 @@ public class CalificacionController {
         return repository.findById(id);
     }
 
-    //@GetMapping("/calificacion-usuario/{idUsuario}/{annio}/{mes}")
-    @RequestMapping(value={ "/calificacion-usuario/{idUsuario}/{annio}/{mes}", "/calificacion-usuario/{idUsuario}" }, method=RequestMethod.GET)
-    public List<Calificacion> getCalificacionByUsuario(@PathVariable String idUsuario
-            , @PathVariable(required = false) Integer annio
-            , @PathVariable(required = false) Integer mes) throws Exception {
+    @GetMapping("/calificacion-usuario")
+    //@RequestMapping(value={ "/calificacion-usuario?idUsuario={idUsuario}&annio={annio}&mes={mes}", "/calificacion-usuario?idUsuario={idUsuario}" }, method=RequestMethod.GET)
+    public List<Calificacion> getCalificacionByUsuario(@RequestParam String idUsuario
+            , @RequestParam(required = false) Integer annio
+            , @RequestParam(required = false) Integer mes) throws Exception {
         return repositoryCalificacion.findCalificacionByName(idUsuario, annio, mes);
     }
 

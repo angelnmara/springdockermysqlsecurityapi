@@ -24,7 +24,7 @@ public class CalificacionJpaServiceImpl implements CalificacionRepository {
     @Override
     public List<Calificacion> findCalificacionByName(String name, Integer annio, Integer mes) throws Exception {
         List<Calificacion> calificacions = new ArrayList<>();
-        if(annio!=null || mes != null){
+        if(annio!=null && mes != null){
             calificacions = findCalificacionesByNameAndFilter(name, annio, mes);
         }else{
             calificacions = this.repository.findAll().stream().filter(c->c.getIdUsuario().contains(name)).collect(Collectors.toList());
