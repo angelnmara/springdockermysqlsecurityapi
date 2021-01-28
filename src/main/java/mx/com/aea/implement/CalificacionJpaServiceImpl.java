@@ -9,6 +9,7 @@ import mx.com.aea.repository.CalificacionRepository;
 import mx.com.aea.utils.Utils;
 import org.springframework.stereotype.Service;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -42,6 +43,17 @@ public class CalificacionJpaServiceImpl implements CalificacionRepository {
 
     @Override
     public List<Calificacion> findCalificacionByDate(Date fecha) {
-        return this.repository.findAll().stream().filter(c->c.getFechaCreacion().getDay() == fecha.getDay() && c.getFechaCreacion().getMonth() == fecha.getMonth() && c.getFechaCreacion().getYear() == fecha.getYear()).collect(Collectors.toList());
+        Calendar cal = Calendar.getInstance();
+        cal.setTime(fecha);
+        List<Calificacion> calificacionList = new ArrayList<>();
+        for (Calificacion calificacion:this.repository.findAll()
+             ) {
+            Calendar calendar = Calendar.getInstance();
+            calendar.setTime(calificacion.getFechaCreacion());
+            if(calendar.get(Calendar.DAY_OF_MONTH) == cal.get(Calendar.DAY_OF_MONTH) && calendar.get(Calendar.MONTH) == cal.get(Calendar.MONTH) && calendar.get(Calendar.YEAR) == cal.get(Calendar.YEAR)){
+                calificacionList.add(calificacion);
+            }
+        }
+        return calificacionList; //this.repository.findAll().stream().filter(c->c.getFechaCreacion().getDay() == cal.get(Calendar.DAY_OF_MONTH) && c.getFechaCreacion().getMonth() == cal.get(Calendar.MONTH) && c.getFechaCreacion().getYear() == cal.get(Calendar.YEAR)).collect(Collectors.toList());
     }
 }
