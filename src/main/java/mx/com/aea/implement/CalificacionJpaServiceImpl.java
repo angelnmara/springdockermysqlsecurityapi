@@ -48,7 +48,7 @@ public class CalificacionJpaServiceImpl implements CalificacionRepository {
         for (Calificacion calificacion:this.repository.findAll()
              ) {
             Calendar calendar = Calendar.getInstance(Locale.getDefault());
-            calendar.setTimeZone(TimeZone.getTimeZone(ZoneOffset.UTC));
+            calendar.setTimeZone(TimeZone.getTimeZone("PST"));
             calendar.setTime(calificacion.getFechaCreacion());
             if(calendar.get(Calendar.DAY_OF_MONTH) == cal.get(Calendar.DAY_OF_MONTH) && calendar.get(Calendar.MONTH) == cal.get(Calendar.MONTH) && calendar.get(Calendar.YEAR) == cal.get(Calendar.YEAR)){
                 calificacionList.add(calificacion);
