@@ -7,6 +7,7 @@ import mx.com.aea.model.Mes;
 import mx.com.aea.repository.CalificacionJpaRepository;
 import mx.com.aea.repository.CalificacionRepository;
 import mx.com.aea.utils.Utils;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import java.time.ZoneOffset;
@@ -27,14 +28,14 @@ public class CalificacionJpaServiceImpl implements CalificacionRepository {
         if(annio!=null && mes != null){
             calificacions = findCalificacionesByNameAndFilter(name, annio, mes);
         }else{
-            calificacions = this.repository.findAll().stream().filter(c->c.getIdUsuario().contains(name)).collect(Collectors.toList());
+            calificacions = this.repository.findAll(Sort.by("fechaCreacion").descending()).stream().filter(c->c.getIdUsuario().contains(name)).collect(Collectors.toList());
         }
         return calificacions;
     }
 
     private List<Calificacion> findCalificacionesByNameAndFilter(String name, Integer annio, Integer mes) throws Exception {
         Utils utils = new Utils();
-        return this.repository.findAll().stream().filter(c -> c.getIdUsuario().contains(name) &&
+        return this.repository.findAll(Sort.by("fechaCreacion").descending()).stream().filter(c -> c.getIdUsuario().contains(name) &&
                 utils.convertToLocalDateViaInstant(c.getFechaCreacion()).getYear() == annio &&
                 utils.convertToLocalDateViaInstant(c.getFechaCreacion()).getMonthValue() == mes
         ).collect(Collectors.toList());
@@ -45,7 +46,7 @@ public class CalificacionJpaServiceImpl implements CalificacionRepository {
         Calendar cal = Calendar.getInstance();
         cal.setTime(fecha);
         List<Calificacion> calificacionList = new ArrayList<>();
-        for (Calificacion calificacion:this.repository.findAll()
+        for (Calificacion calificacion:this.repository.findAll(Sort.by("fechaCreacion").descending())
              ) {
             Calendar calendar = Calendar.getInstance(Locale.getDefault());
             calendar.setTimeZone(TimeZone.getTimeZone("PST"));

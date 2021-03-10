@@ -3,6 +3,7 @@ package mx.com.aea.controller;
 import mx.com.aea.model.Calificacion;
 import mx.com.aea.repository.CalificacionJpaRepository;
 import mx.com.aea.repository.CalificacionRepository;
+import org.springframework.data.domain.Sort;
 import org.springframework.web.bind.annotation.*;
 
 import java.text.ParseException;
@@ -30,7 +31,7 @@ public class CalificacionController {
 
     @GetMapping("/calificacion/")
     public List<Calificacion> getAllCalificaciones() {
-        return repository.findAll();
+        return repository.findAll(Sort.by("fechaCreacion").descending());
     }
 
     @GetMapping("/calificacion/{id}")
