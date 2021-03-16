@@ -23,15 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bb7029c-8024-4af7-b9a7-85d197b5f432" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/utils/BeeperControl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/HolaMongolApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/HolaMongolApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/controller/CalificacionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/controller/CalificacionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/implement/CalificacionJpaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/implement/CalificacionJpaServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/repository/CalificacionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/repository/CalificacionRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/HolaMongolApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/com/aea/HolaMongolApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
