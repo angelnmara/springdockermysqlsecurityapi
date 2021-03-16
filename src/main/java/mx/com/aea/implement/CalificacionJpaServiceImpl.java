@@ -41,6 +41,13 @@ public class CalificacionJpaServiceImpl implements CalificacionRepository {
         ).collect(Collectors.toList());
     }
 
+    private List<Calificacion> findCalificacionesByMonthAndYear(Integer annio, Integer mes) throws Exception {
+        Utils utils = new Utils();
+        return this.repository.findAll(Sort.by("fechaCreacion").descending()).stream().filter(c -> utils.convertToLocalDateViaInstant(c.getFechaCreacion()).getYear() == annio &&
+                utils.convertToLocalDateViaInstant(c.getFechaCreacion()).getMonthValue() == mes
+        ).collect(Collectors.toList());
+    }
+
     @Override
     public List<Calificacion> findCalificacionByDate(Date fecha) {
         Calendar cal = Calendar.getInstance();
@@ -56,5 +63,16 @@ public class CalificacionJpaServiceImpl implements CalificacionRepository {
             }
         }
         return calificacionList; //this.repository.findAll().stream().filter(c->c.getFechaCreacion().getDay() == cal.get(Calendar.DAY_OF_MONTH) && c.getFechaCreacion().getMonth() == cal.get(Calendar.MONTH) && c.getFechaCreacion().getYear() == cal.get(Calendar.YEAR)).collect(Collectors.toList());
+    }
+
+    @Override
+    public List<Calificacion> findCalificacionByMonthYear(Integer mes, Integer annio) throws Exception {
+        List<Calificacion> calificacions = new ArrayList<>();
+        if(annio!=null && mes != null){
+            calificacions = findCalificacionesByMonthAndYear(annio, mes);
+        }else{
+            calificacions = this.repository.findAll(Sort.by("fechaCreacion").descending()).stream().collect(Collectors.toList());
+        }
+        return calificacions;
     }
 }

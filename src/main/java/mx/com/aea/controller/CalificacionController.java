@@ -29,9 +29,16 @@ public class CalificacionController {
         repository.save(calificacion);
     }
 
-    @GetMapping("/calificacion/")
+    @GetMapping("/calificacion")
     public List<Calificacion> getAllCalificaciones() {
         return repository.findAll(Sort.by("fechaCreacion").descending());
+    }
+
+    @GetMapping("/calificacion-month-year")
+    public List<Calificacion> getAllCalificacionesByMonthYear(
+            @RequestParam(required = false) Integer mes
+            , @RequestParam(required = false) Integer annio) throws Exception {
+        return repositoryCalificacion.findCalificacionByMonthYear(mes, annio);
     }
 
     @GetMapping("/calificacion/{id}")
