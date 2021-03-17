@@ -23,7 +23,7 @@ public class CalificacionController {
     }
 
 
-    @PostMapping("/calificacion/")
+    @PostMapping("/calificacion")
     public void saveCalificacion(@RequestBody Calificacion calificacion) {
         calificacion.setFechaCreacion(new Date());
         repository.save(calificacion);
