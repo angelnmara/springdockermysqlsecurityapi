@@ -25,15 +25,15 @@ public class RolController {
     }
 
     @PutMapping("/rol/{id}")
-    public Rol updateRol(@RequestBody Rol newArea, @PathVariable Long id){
+    public Rol updateRol(@RequestBody Rol newRol, @PathVariable Long id){
         return repository.findById(id).map(Rol ->{
-            Rol.setNombreRol(newArea.getNombreRol());
-            Rol.setDescripcionRol(newArea.getDescripcionRol());
+            Rol.setNombreRol(newRol.getNombreRol());
+            Rol.setDescripcionRol(newRol.getDescripcionRol());
             Rol.setFechaActualizacion(new Date());
             return repository.save(Rol);
         }).orElseGet(()->{
-            newArea.setIdRol(id);
-            return repository.save(newArea);
+            newRol.setIdRol(id);
+            return repository.save(newRol);
         });
     }
 
