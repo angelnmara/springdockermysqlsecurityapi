@@ -23,12 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bb7029c-8024-4af7-b9a7-85d197b5f432" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/controller/tbAreaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/model/tbArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/repository/tbAreaJpaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/controller/RolController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/model/Rol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/repository/AreaJpaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/repository/RolJpaRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/controller/CalificacionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/controller/CalificacionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/controller/tbAreaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/controller/AreaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/model/tbArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/model/Area.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/repository/tbAreaJpaRepository.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +43,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -204,11 +206,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/mx/com/aea/controller/CalificacionController.java</url>
           <line>40</line>
           <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/mx/com/aea/controller/tbAreaController.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
