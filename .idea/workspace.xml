@@ -23,11 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bb7029c-8024-4af7-b9a7-85d197b5f432" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/controller/EmpresaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/model/Empresa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/repository/EmpresaJpaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/controller/EmpresaAreaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/controller/EmpresaRolController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/model/CreacionActualizacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/model/EmpresaArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/model/EmpresaRol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/repository/EmpresaAreaJpaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/repository/EmpresaRolJpaRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/controller/RolController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/controller/RolController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,9 +208,9 @@
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/mx/com/aea/controller/EmpresaController.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="25" />
+          <url>file://$PROJECT_DIR$/src/main/java/mx/com/aea/controller/EmpresaRolController.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
