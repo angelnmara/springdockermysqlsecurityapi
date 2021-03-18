@@ -23,13 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bb7029c-8024-4af7-b9a7-85d197b5f432" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/controller/EmpresaAreaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/controller/EmpresaRolController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/model/CreacionActualizacion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/model/EmpresaArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/model/EmpresaRol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/repository/EmpresaAreaJpaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/repository/EmpresaRolJpaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/controller/FuncionalidadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/controller/UsuarioDetalleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/model/Funcionalidad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/model/UsuarioDetalle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/repository/FuncionalidadJpaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/repository/UsuarioDetalleJpaRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -148,11 +147,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/mx/com/aea/controller/CalificacionController.java</url>
           <line>33</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/mx/com/aea/controller/UsuarioController.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/mx/com/aea/controller/CalificacionController.java</url>
