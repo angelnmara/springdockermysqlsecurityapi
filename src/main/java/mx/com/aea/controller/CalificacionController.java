@@ -47,16 +47,24 @@ public class CalificacionController {
     }
 
     @GetMapping("/calificacion-usuario")
-    //@RequestMapping(value={ "/calificacion-usuario?idUsuario={idUsuario}&annio={annio}&mes={mes}", "/calificacion-usuario?idUsuario={idUsuario}" }, method=RequestMethod.GET)
-    public List<Calificacion> getCalificacionByUsuario(@RequestParam String idUsuario
+    public List<Calificacion> getCalificacionByUsuario(@RequestParam Long idUsuario
             , @RequestParam(required = false) Integer annio
             , @RequestParam(required = false) Integer mes) throws Exception {
         return repositoryCalificacion.findCalificacionByName(idUsuario, annio, mes);
     }
 
-    @GetMapping("/calificacion-fecha/{fechaStr}")
-    public List<Calificacion> getCalificacionByDate(@PathVariable String fechaStr ) throws ParseException {
+    @GetMapping("/calificacion-fecha")
+    public List<Calificacion> getCalificacionByDate(@RequestParam String fechaStr
+            , @RequestParam Long idEmpresa ) throws ParseException {
         Date fecha=new SimpleDateFormat("yyyyMMdd").parse(fechaStr);
-        return repositoryCalificacion.findCalificacionByDate(fecha);
+        return repositoryCalificacion.findCalificacionByDate(fecha, idEmpresa);
+    }
+
+    @GetMapping("/calificacion-empresa")
+    public List<Calificacion> getCalificacionByEmpresa(@RequestParam Long idEmpresa ) throws ParseException {
+        return repositoryCalificacion.findCalificacionByEmpresa(idEmpresa);
     }
 }
+
+
+//@RequestMapping(value={ "/calificacion-usuario?idUsuario={idUsuario}&annio={annio}&mes={mes}", "/calificacion-usuario?idUsuario={idUsuario}" }, method=RequestMethod.GET)
