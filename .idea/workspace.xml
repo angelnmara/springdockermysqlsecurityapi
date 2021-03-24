@@ -23,19 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bb7029c-8024-4af7-b9a7-85d197b5f432" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/controller/FuncionalidadEmpresaRolController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/model/FuncionalidadEmpresaRol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/repository/FuncionalidadEmpresaRolJapRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/implement/UsuarioDetalleJpaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/repository/UsuarioDetalleRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/controller/CalificacionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/controller/CalificacionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/implement/CalificacionJpaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/implement/CalificacionJpaServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/model/Calificacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/model/Calificacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/repository/CalificacionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/repository/CalificacionRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/controller/CalificacionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/com/aea/controller/CalificacionController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/implement/CalificacionJpaServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/com/aea/implement/CalificacionJpaServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/model/Calificacion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/com/aea/model/Calificacion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/repository/CalificacionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/com/aea/repository/CalificacionRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/controller/UsuarioDetalleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/controller/UsuarioDetalleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/model/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/controller/UsuarioDetalleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/com/aea/controller/UsuarioDetalleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/model/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/com/aea/model/Usuario.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
