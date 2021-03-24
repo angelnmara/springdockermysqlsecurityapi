@@ -41,10 +41,10 @@ public class CalificacionJpaServiceImpl implements CalificacionRepository {
         ).collect(Collectors.toList());
     }
 
-    private List<Calificacion> findCalificacionesByMonthAndYear(Integer annio, Integer mes) throws Exception {
+    private List<Calificacion> findCalificacionesByMonthAndYear(Integer annio, Integer mes, Long idEmpresa) throws Exception {
         Utils utils = new Utils();
         return this.repository.findAll(Sort.by("fechaCreacion").descending()).stream().filter(c -> utils.convertToLocalDateViaInstant(c.getFechaCreacion()).getYear() == annio &&
-                utils.convertToLocalDateViaInstant(c.getFechaCreacion()).getMonthValue() == mes
+                utils.convertToLocalDateViaInstant(c.getFechaCreacion()).getMonthValue() == mes && c.getIdEmpresa().longValue() == idEmpresa
         ).collect(Collectors.toList());
     }
 
@@ -66,10 +66,10 @@ public class CalificacionJpaServiceImpl implements CalificacionRepository {
     }
 
     @Override
-    public List<Calificacion> findCalificacionByMonthYear(Integer mes, Integer annio) throws Exception {
+    public List<Calificacion> findCalificacionByMonthYear(Integer mes, Integer annio, Long idEmpresa) throws Exception {
         List<Calificacion> calificacions = new ArrayList<>();
         if(annio!=null && mes != null){
-            calificacions = findCalificacionesByMonthAndYear(annio, mes);
+            calificacions = findCalificacionesByMonthAndYear(annio, mes, idEmpresa);
         }else{
             calificacions = this.repository.findAll(Sort.by("fechaCreacion").descending()).stream().collect(Collectors.toList());
         }

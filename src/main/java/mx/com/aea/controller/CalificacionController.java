@@ -37,8 +37,9 @@ public class CalificacionController {
     @GetMapping("/calificacion-month-year")
     public List<Calificacion> getAllCalificacionesByMonthYear(
             @RequestParam(required = false) Integer mes
-            , @RequestParam(required = false) Integer annio) throws Exception {
-        return repositoryCalificacion.findCalificacionByMonthYear(mes, annio);
+            , @RequestParam(required = false) Integer annio
+            , @RequestParam Long idEmpresa) throws Exception {
+        return repositoryCalificacion.findCalificacionByMonthYear(mes, annio, idEmpresa);
     }
 
     @GetMapping("/calificacion/{id}")
@@ -61,7 +62,7 @@ public class CalificacionController {
     }
 
     @GetMapping("/calificacion-empresa")
-    public List<Calificacion> getCalificacionByEmpresa(@RequestParam Long idEmpresa ) throws ParseException {
+    public List<Calificacion> getCalificacionByEmpresa(@RequestParam Long idEmpresa) throws ParseException {
         return repositoryCalificacion.findCalificacionByEmpresa(idEmpresa);
     }
 }
