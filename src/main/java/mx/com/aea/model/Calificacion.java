@@ -16,5 +16,6 @@ public class Calificacion {
     private Long idCatCalificacion;
     private Long idUsuario;
     private Long idEmpresa;
+    private String emocion;
     private Date fechaCreacion;
 }
