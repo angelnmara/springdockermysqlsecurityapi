@@ -28,6 +28,8 @@ docker run  --network employee-mysql -p 81:8080 javadbapp &!
 6.- Si tu base de datos esta arriba, levantara el docker sin problemas, en la configuracion bienen 2 cadenas de conexion, la que dice produccion apunta hacia el docker y la de pruebas apunta local, para levantar el docker tiene que estar en modo produccion, si no estaba asi y lo cambiaste, recuerda que tienes que generar la imagen de nueva cuenta y volverlo a ejecutar, puedes probar que los 2 esten arriba con el comando:
 docker ps
 
+igual con este comando puedes ver a donde estan apuntando, por default la base de datos esta en el 3306 y la aplicacion esta en el puerto 81
+
 igual si se te olvido cambiarle la conexion y esta arriba recuerda que tienes que parar el contenedor y borrarlo
 docker rm -f docker-id
 
