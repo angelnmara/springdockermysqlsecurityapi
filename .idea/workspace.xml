@@ -23,20 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bb7029c-8024-4af7-b9a7-85d197b5f432" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/controller/FuncionalidadEmpresaRolController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/model/FuncionalidadEmpresaRol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/repository/FuncionalidadEmpresaRolJapRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/controller/CalificacionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/controller/CalificacionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/implement/CalificacionJpaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/implement/CalificacionJpaServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/implement/UsuarioDetailsServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/model/Calificacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/model/Calificacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/com/aea/repository/CalificacionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/com/aea/repository/CalificacionRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/controller/CalificacionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/com/aea/controller/CalificacionController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/implement/CalificacionJpaServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/com/aea/implement/CalificacionJpaServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/implement/UsuarioDetailsServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/model/Calificacion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/com/aea/model/Calificacion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mx/com/aea/repository/CalificacionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/com/aea/repository/CalificacionRepository.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +44,21 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -120,7 +123,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.HolaMongolApplication" />
-        <item itemvalue="Docker.MySQL.Dockerfile" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +147,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
